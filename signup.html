@@ -34,16 +34,16 @@
     </header>
 
     <section class="form-section">
-        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
-            <h2>Let's get you signed up!</h2>
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+            <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i></h2>
             <label for="fname">First Name</label>
-            <input id="fname" name="first_name" type="text" required>
+            <input class="text-input" id="fname" name="first_name" type="text" placeholder="Enter Your Name" required>
             
             <label for="lname">Last Name</label>
-            <input id="lname" name="last_name" type="text" required>
+            <input class="text-input" id="lname" name="last_name" type="text" placeholder="Enter Your Surname" required>
             
             <label for="email">Email Address</label>
-            <input type="email" id="email" name="email_address" required>
+            <input class="text-input" type="email" id="email" name="email_address" placeholder="Enter Your Email" required>
             
             <label for="road">Road</label>
             <input type="radio" id="road" name="running_preference" value="road" required>
@@ -54,7 +54,7 @@
             
             <input class="join-button" type="submit" value="Let's Run!">
         </form>
-        
+
     </section>
 
     <footer>
